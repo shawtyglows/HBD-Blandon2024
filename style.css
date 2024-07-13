@@ -6,7 +6,7 @@ body {
     background-color: #fae1dd
 }
 
-.contianer {
+.container {
     position: relative;
 
 }
@@ -114,6 +114,16 @@ body {
 .heart:after {
     left: 15px;
     top:0;
+}
+
+button {
+    background-color:#f08080;
+    border: none;
+    position: relative;
+    height: 20px;
+    width: 80px;
+    top: 100px;
+    left: 90px;
 }
 
 .hearts {
