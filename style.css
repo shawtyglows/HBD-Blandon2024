@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fae1dd
+    background-color: #f8edd7
 }
 
 .container {
@@ -61,7 +61,7 @@ body {
 .card:before {
     content: "";
     position:absolute;
-    border: 3px solid #003049;
+    border: 3px solid #053e5d;
     border-style: dotted;
     width: 240px;
     height: 140px;
@@ -78,7 +78,7 @@ body {
     line-height: 25px;
     top: 19px;
     left: 85px;
-    color: #003049;
+    color: #053e5d;
 
 }
 
