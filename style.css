@@ -73,11 +73,11 @@ body {
 .text {
     position:absolute;
     font-family: 'Brush Script MT', cursive;
-    font-size: 28px;
+    font-size: 35px;
     text-align: center;
-    line-height: 25px;
-    top: 19px;
-    left: 85px;
+    line-height: 35px;
+    top: 24px;
+    left: 30px;
     color: #053e5d;
 
 }
@@ -89,11 +89,21 @@ body {
     height:30px;
     width:30px;
     margin: 0 10px;
-    top:100px;
-    left: 105px;
+    top:80px;
+    left: 190px;
     transform: rotate(-45deg);
 
+}
 
+.textTwo {
+    position:absolute;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+    top: 95px;
+    left: 50px;
+    color: #053e5d;
 }
 
 .heart:before, .heart:after {
@@ -115,7 +125,7 @@ body {
     left: 15px;
     top:0;
 }
-
+/*
 button {
     background-color:#f08080;
     border: none;
@@ -125,7 +135,7 @@ button {
     top: 100px;
     left: 90px;
 }
-
+*/
 .hearts {
     position: absolute;
     top:15px;
@@ -247,3 +257,30 @@ button {
     }
 }
 
+
+.btn {
+    position:relative;
+    text-align: center;
+    font-weight: 800;
+    border:none;
+    left:50px;
+    top:100px;
+    margin: 15px;
+    padding:12px;
+    width:160px;
+    font-family: "Questrial", sans-serif;
+    text-transform: uppercase;
+    border-radius: 6px;
+    cursor:pointer;
+    color:#fff;
+    background-size: 200%;
+    background-position: left;
+    transition:0.6s;
+    background-image: linear-gradient(to left,#f4978e,#d62828,#f4978e);
+    justify-content:center;
+    flex-direction: column;
+}
+
+.btn:hover {
+    background-position: right;
+}
